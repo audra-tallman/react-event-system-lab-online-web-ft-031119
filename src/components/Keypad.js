@@ -6,7 +6,14 @@ import React from 'react';
  
    render() {
      return (
+       <div>
+       <input 
+       type="password"
+       onKeyUp={this.handleInputPassword}
+       />
+       </div>
        )
    }
-   
  }
+ 
+ export default Keypad;
